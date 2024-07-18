@@ -24,3 +24,6 @@ class ArrayOfAnything<T> {
 
 new ArrayOfAnything<string>(['a', 'b', 'c']);
 new ArrayOfAnything<number>([1, 2, 3]);
+
+// type inference
+const arr = new ArrayOfAnything(['a', 'b', 'c']);
